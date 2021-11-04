@@ -1,7 +1,7 @@
 module "network" {
   source  = "app.terraform.io/onyb/network/google"
   version = "4.0.0"
-  network_name = "gaurav-network"
+  network_name = "gaurav-network-1"
   project_id = var.project
   # insert required variables here
 
